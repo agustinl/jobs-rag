@@ -145,8 +145,8 @@ def search_company_web_information(
             include_images=True,
             include_favicon=True,
             country="argentina",
-            start_date=get_one_year_ago(),
-            end_date=datetime.now(),
+            # start_date=get_one_year_ago(),
+            # end_date=datetime.now(),
         )
     except Exception as e:
         return f"Error searching for company web information: {str(e)}"
